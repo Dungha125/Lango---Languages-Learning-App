@@ -2,12 +2,13 @@ import { ClerkLoaded, ClerkLoading, SignedIn,SignedOut, SignInButton, UserButton
 import { headers } from "next/headers"
 import { Loader } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 export const Header =()=>{
     return(
         <header className="h-20 w-full border-b-2 border-slate-200 px-4">
             <div className="lg:max-w-screen-lg mx-auto flex items-center justify-between h-full">
                 <div className="pt-8 pl-4 pb-7 flex items-center gap-x-3">
-                     <div className="h-10 w-10 bg-green-500"></div>
+                    <Image src="/SVG/logo.svg" height={40} width={40} alt="Logo Lango"></Image>
                     <h1 className="text-2xl font-extrabold text-green-600 tracking-wide">Lango</h1>
                 </div>
                 <ClerkLoading>

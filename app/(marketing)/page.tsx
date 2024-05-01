@@ -8,7 +8,7 @@ export default function Home() {
     lg:flex-row items-center justify-center p-4 gap-2">
     <div className="relative w-[204px] h-[240px] lg:w-[424px] lg:h-[424px]
     mb-8 lg:mb-0">
-      <Image src="/next.svg" fill alt ="Anh"></Image>
+      <Image src="/SVG/Hello.svg" fill alt ="Anh"></Image>
     </div>
     <div className="flex flex-col items-center gap-y-8">
       <h1 className="text-xl lg:text-2xl font-bold text-neutral-600 max-w-[480px] text-center">
